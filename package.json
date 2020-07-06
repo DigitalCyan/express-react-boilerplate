@@ -1,0 +1,33 @@
+{
+  "name": "express-react-boilerplate",
+  "version": "1.0.0",
+  "description": "A starting point for an express x react project.",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run build-client; node main.js",
+    "dev": "npm run build-client; nodemon main.js",
+    "build-client": "npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalCyan/express-react-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "boilerplate",
+    "js"
+  ],
+  "author": "DigitalCyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DigitalCyan/express-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/DigitalCyan/express-react-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
